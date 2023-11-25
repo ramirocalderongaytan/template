@@ -230,4 +230,16 @@ DEPENDENCIES
   rails (~> 7.0.3, >= 7.0.3.1)
   redis (~> 4.0)
   selenium-webdriver
-  sprockets-
+  sprockets-rails
+  stimulus-rails
+  tailwindcss-rails (~> 2.0)
+  turbo-rails
+  tzinfo-data
+  web-console
+  webdrivers
+
+RUBY VERSION
+   ruby 3.1.2p20
+
+BUNDLED WITH
+   2.4.22
