@@ -87,7 +87,6 @@ Rails.application.configure do
     logger.formatter = config.log_formatter
     config.logger    = ActiveSupport::TaggedLogging.new(logger)
   end
-  config.hosts << "rails-production-295c.up.railway.app"
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
