@@ -59,7 +59,7 @@ Rails.application.configure do
   # Suppress logger output for asset requests.
   config.assets.quiet = true
 
-  config.hosts << "rails-production-295c.up.railway.app"
+  config.hosts = "rails-production-295c.up.railway.app"
 
 
   # Raises error for missing translations.
